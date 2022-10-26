@@ -6,7 +6,7 @@
   "scripts": {
     "deploy": "fly deploy --remote-only",
     "build:css": "npm run generate:css -- --minify",
-    "build:remix": "remix build",
+    "build": "remix build",
     "dev": "run-p dev:*",
     "dev:css": "npm run generate:css -- --watch",
     "dev:remix": "remix dev",
